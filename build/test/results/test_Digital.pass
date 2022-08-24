@@ -1,0 +1,22 @@
+---
+:source:
+  :path: test
+  :file: test_Digital.c
+:successes: []
+:failures: []
+:ignores:
+- :test: test_Digital_Init_should_InitBitsForReading
+  :line: 17
+  :message: Need to Implement Digital_Init
+  :unity_test_time: 0
+- :test: test_Digital_GetBits_should_ReadDigitalInputsAndReturnCurrentValues
+  :line: 22
+  :message: Need to Implement Digital_GetBits
+  :unity_test_time: 0
+:counts:
+  :total: 2
+  :passed: 0
+  :failed: 0
+  :ignored: 2
+:stdout: []
+:time: 0.0009701509843580425

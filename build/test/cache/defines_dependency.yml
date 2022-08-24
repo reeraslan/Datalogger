@@ -1,0 +1,15 @@
+---
+src/Digital.c:
+- TEST
+build/test/mocks/mock_Led.c:
+- TEST
+build/test/mocks/mock_Digital.c:
+- TEST
+src/Executor.c:
+- TEST
+src/Led.c:
+- TEST
+build/test/mocks/mock_Executor.c:
+- TEST
+src/main.c:
+- TEST

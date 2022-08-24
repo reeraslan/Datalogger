@@ -1,0 +1,65 @@
+{
+    "C_Cpp.dimInactiveRegions": false,
+    "files.associations": {
+        "unity.h": "c",
+        "mock_led.h": "c",
+        "cmock.h": "c",
+        "led.h": "c",
+        "mock_executor.h": "c",
+        "executor.h": "c",
+        "digital.h": "c",
+        "features.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Enabled",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "better-comments.tags": [
+        {
+          "tag": "!",
+          "color": "#FF2D00",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "tag": "?",
+          "color": "#3498DB",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "tag": "//",
+          "color": "#474747",
+          "strikethrough": true,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "tag": "todo",
+          "color": "#FF8C00",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "tag": "*",
+          "color": "#98C379",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        }
+      ],
+      "editor.cursorSmoothCaretAnimation": true,
+      "editor.fastScrollSensitivity": 100
+      "editor.mouseWheelScrollSensitivity": 2
+}
