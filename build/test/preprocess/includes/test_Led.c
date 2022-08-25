@@ -1,3 +1,0 @@
----
-- "/home/eren/Desktop/dev/Datalogger/vendor/ceedling/vendor/unity/src/unity.h"
-- src/Led.h
