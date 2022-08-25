@@ -1,11 +1,13 @@
 #include "Led.h"
 #include "Digital.h"
+#include "Analog_Conductor.h"
 #include "Executor.h"
 
 void Executor_Init(void)
 {
     Led_Init();
     Digital_Init();
+    Analog_Conductor_Init();
 }
 
 bool Executor_Exec(void)

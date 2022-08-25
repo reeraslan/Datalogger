@@ -3,6 +3,8 @@
 #include "unity.h"
 #include "mock_Led.h"
 #include "mock_Digital.h"
+#include "mock_Analog_Conductor.h"
+#include "mock_Analog_Model.h"
 
 #include "Executor.h"
 
@@ -18,6 +20,8 @@ void test_Executor_Init_ShouldInitAllSubsystems(void)
 {
     Led_Init_Expect();
     Digital_Init_Expect();
+    Analog_Conductor_Init_Expect();
+
     Executor_Init();
 }
 
@@ -119,3 +123,37 @@ void test_Executor_Exec_should_TurnOffLed2_when_Digital4orDigital5AreOff(void)
 
     Executor_Exec();
 }
+
+// void test_Executor_Exec_should_TurnOnLEDs_when_FirstofPairGreaterThanSecondOfPair(void)
+// {
+//     Analog_Conductor_Init_Expect();
+
+//     Analog_Model_GetChannel_ExpectAndReturn(0, 101);
+//     Analog_Model_GetChannel_ExpectAndReturn(1, 100);
+//     Led_On_Expect(LED0);
+
+//     Analog_Model_GetChannel_ExpectAndReturn(2, 1);
+//     Analog_Model_GetChannel_ExpectAndReturn(3, 0);
+//     Led_On_Expect(LED1);
+
+
+//     Analog_Model_GetChannel_ExpectAndReturn(4, 0x800);
+//     Analog_Model_GetChannel_ExpectAndReturn(5, 0x700);
+//     Led_On_Expect(LED2);
+
+//     Executor_Exec();
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
